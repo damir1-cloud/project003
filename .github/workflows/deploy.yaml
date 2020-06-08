@@ -32,6 +32,6 @@ jobs:
     - name: Build React App
     - run: yarn build
     - name: Install Surge
-    - run: npm install -g surge
+    - run: npm install --global surge
     - name: Run surge
-    - run: surge ./build b_camp2020_react.react.sh --token ${{ secrets.SURGE_TOKEN }}
+    - run: surge ./build b_camp2020_react.surge.sh --token ${{ secrets.SURGE_TOKEN }}
