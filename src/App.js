@@ -4,7 +4,7 @@ import './App.css';
 
 function App(props) {
   return (
-  <div>Hello World. My name is {props.name} and my age is {props.age}</div>
+  <div>Hello World. My name is {props.name} and my age is {props.age - 10}</div>
   );
 }
 
