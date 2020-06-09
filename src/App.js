@@ -2,9 +2,9 @@ import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
 
-function App(props) {
+function App({name, age}) {
   return (
-  <div>Hello World. My name is {props.name} and my age is {props.age - 10}</div>
+  <div>Hello World. My name is {name} and my age is {age - 5}</div>
   );
 }
 
